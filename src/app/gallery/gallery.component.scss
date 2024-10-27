@@ -1,0 +1,18 @@
+.main-image{
+    padding: 25px 95px 95px 95px;
+    height: 92vh;
+    margin-left: 20px;
+}
+
+.arrow-btn{
+    position: fixed;
+    top: 81vh;
+    right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: rgba(var(--ui-1), var(--opacity-6));
+    border-radius: 50%;
+    width: 54px;
+    height: 54px;
+    z-index: 1;
+    cursor: pointer;
+}

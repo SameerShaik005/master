@@ -1,0 +1,24 @@
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <img class="main-image" src="../../assets/images/slide-4.jpg">
+                <img class="main-image" src="../../assets/images/slide-5.jpg">
+                <img class="main-image" src="../../assets/images/slide-8.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <img class="main-image" src="../../assets/images/slide-6.jpg">
+                <img class="main-image" src="../../assets/images/slide-7.jpg">
+                <img class="main-image" src="../../assets/images/slide-9.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="arrow-btn" (click)="showautomationMenu = !showautomationMenu"
+    [style.background-color]="!!showautomationMenu ? 'rgba(var(--ui-2), var(--opacity-1))' : ''">
+        <img src="../../assets/images/arrow-up-circle.svg" style="height: 30px;margin-top: 10px;">
+  </div>
+</div>

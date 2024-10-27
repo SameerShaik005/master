@@ -1,0 +1,56 @@
+/* app.component.css */
+
+// .app-container {
+//   height: 100vh;
+// }
+
+// .sidenav {
+//   width: 240px;
+//   background-color: #2f3136;
+//   color: white;
+// }
+
+// .toolbar {
+//   background-color: #23272a;
+//   color: white;
+// }
+
+// .spacer {
+//   flex: 1;
+// }
+
+// .main-content {
+//   padding: 16px;
+//   background-color: #f4f4f4;
+//   height: calc(100vh - 64px); /* Adjust for toolbar height */
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+// }
+
+// .chat-bubble {
+//   background-color: #e0e0e0;
+//   margin-bottom: 8px;
+//   padding: 10px;
+//   border-radius: 10px;
+//   width: fit-content;
+// }
+
+// .message-input {
+//   width: 100%;
+// }
+
+
+@import "bootstrap/scss/bootstrap";
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "cursor": (
+      property: cursor,
+      class: cursor,
+      responsive: true,
+      values: auto pointer grab,
+    )
+  )
+);
