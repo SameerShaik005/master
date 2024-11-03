@@ -23,7 +23,8 @@ export class LoginComponent {
   login() {
     if(this.myLogInForm.get('username')?.value == this.validUserName &&  
     this.myLogInForm.get('password')?.value == this.validPassword) {
-      this.router.navigateByUrl('/home')
+      this.router.navigateByUrl('/home');
+      this.authService.navigateToHome = true;
     }
     //this.authService.login(user);
   }
