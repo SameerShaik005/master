@@ -1,7 +1,6 @@
 .main-image{
-    padding: 25px 95px 95px 95px;
+    padding: 18px 50px 70px 70px;
     height: 92vh;
-    margin-left: 20px;
 }
 
 .arrow-btn{
@@ -15,4 +14,8 @@
     height: 54px;
     z-index: 1;
     cursor: pointer;
+}
+.wide-image {
+    padding: 25px 95px 95px 15px;
+    height: 92vh;
 }

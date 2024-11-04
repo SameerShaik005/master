@@ -15,6 +15,10 @@ export class AppComponent implements OnInit, OnChanges {
       
     }
 
+    logedOut() {
+      this.authService.navigateToHome = false;
+      this.router.navigate(['login']);
+    }
     ngOnChanges(changes: SimpleChanges): void {
     }
 }
